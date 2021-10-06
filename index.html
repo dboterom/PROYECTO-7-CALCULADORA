@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="num-container">
+            <div>Número 1</div>
+            <input id="number-1" type="number">
+
+            <div>Número 2</div>
+            <input id="number-2" type="number">
+            
+        </div>
+        
+        <div class="result-container">
+            <h1 id="result-text">Resultado</h1>
+        </div>
+
+        <div class="button-container">
+            <div class="button" id="button-add" onclick="add()">
+                <h2>+</h2>
+            </div>
+            <div class="button" id="button-subtract" onclick="subtract()">
+                <h2>-</h2>
+            </div>
+            <div class="button" id="button-equal" onclick="byPass()">
+                <h2>=</h2>
+            </div>
+        </div>
+
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
